@@ -28,7 +28,7 @@
             <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES"/>
          </rowConstraints>
          <Button mnemonicParsing="false" onAction="#topicBut1" text="Требование к работникам"/>
-         <Button disable="true" mnemonicParsing="false" text="Организационные мероприятия"
+         <Button mnemonicParsing="false" onAction="#topicBut2" text="Организационные мероприятия"
                  GridPane.rowIndex="1"/>
          <Button disable="true" mnemonicParsing="false" text="Наряд допуск" GridPane.rowIndex="2"/>
          <Button disable="true" mnemonicParsing="false" text="Распоряжение"
