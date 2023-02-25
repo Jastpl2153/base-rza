@@ -35,7 +35,7 @@
                  GridPane.rowIndex="3"/>
          <Button disable="true" mnemonicParsing="false"
                  text="Перечень работ во время текущей эксплуатации" GridPane.rowIndex="4"/>
-         <Button disable="true" mnemonicParsing="false" text="Технические мероприятия"
+         <Button mnemonicParsing="false" onAction="#topicBut6" text="Технические мероприятия"
                  GridPane.rowIndex="5"/>
          <Button disable="true" mnemonicParsing="false" text="Плакаты" GridPane.rowIndex="6"/>
          <Button disable="true" mnemonicParsing="false" text="Инструменты" GridPane.rowIndex="7"/>
