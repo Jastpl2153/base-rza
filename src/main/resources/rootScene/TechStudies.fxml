@@ -8,7 +8,8 @@
 <?import javafx.scene.layout.RowConstraints?>
 
 <ScrollPane fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="322.4"
-            prefWidth="598.4" xmlns="http://javafx.com/javafx/19">
+            prefWidth="598.4" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.TechStudiesController">
    <content>
       <AnchorPane prefHeight="700.0" prefWidth="200.0">
          <children>
@@ -43,7 +44,7 @@
                <children>
                   <Button disable="true" mnemonicParsing="false"
                           text="Измерение сопротивление изоляции в цепях постоянного и переменного тока."/>
-                  <Button disable="true" mnemonicParsing="false"
+                  <Button mnemonicParsing="false" onAction="#onTopic2ButtonClick"
                           text="Измерение сопротивление изоляции в цепях ТТ." GridPane.rowIndex="1"/>
                   <Button disable="true" mnemonicParsing="false" text="Проверка полярности ТТ." GridPane.rowIndex="2"/>
                   <Button disable="true" mnemonicParsing="false" text="Построение вольт-амперной характеристики (ВАХ)."

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="500.0" minHeight="400.0" minWidth="630.0" prefHeight="500.0" prefWidth="700.0"
+            xmlns="http://javafx.com/javafx/19">
+    <SplitPane dividerPositions="0.1034136546184739" layoutX="190.0" layoutY="76.0" orientation="VERTICAL"
+               prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+               AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <AnchorPane maxHeight="160.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+            <Label alignment="CENTER" layoutX="258.0" layoutY="11.0" text="Измерения сопротивления изоляции"
+                   wrapText="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0"
+                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+            </Label>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="440.0">
+            <BorderPane layoutX="200.0" layoutY="62.0" prefHeight="354.4" prefWidth="599.2"
+                        AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                        AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <center>
+                    <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE"
+                             BorderPane.alignment="CENTER">
+                        <Tab text="Шаг первый">
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+                                        prefWidth="200.0">
+                                <Label layoutX="15.0" layoutY="59.0"
+                                       text="2. Убедиться, с помощью указателя напряжения, что на испытуемом кабеле нет напряжения."
+                                       wrapText="true" AnchorPane.leftAnchor="15.0"
+                                       AnchorPane.rightAnchor="15.0"
+                                       AnchorPane.topAnchor="59.0">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="15.0" layoutY="85.0"
+                                       text="3. Выбрать соответствующий предел измерений."
+                                       wrapText="true" AnchorPane.leftAnchor="15.0"
+                                       AnchorPane.rightAnchor="15.0">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="14.0" layoutY="13.0"
+                                       text="Перед началом измерений необходимо: "
+                                       underline="true" wrapText="true"
+                                       AnchorPane.topAnchor="13.0">
+                                    <font>
+                                        <Font name="System Bold" size="14.0"/>
+                                    </font>
+                                </Label>
+                                <Label layoutX="15.0" layoutY="111.0"
+                                       text="4. Отыскиваем землю одним концом садимся на землю и другим тоже. Стрелка должна быть у отметки ноль. Тем самым мы удостоверимся что мегаометр исправен и мы верно нашли землю."
+                                       wrapText="true" AnchorPane.leftAnchor="15.0"
+                                       AnchorPane.rightAnchor="15.0">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="15.0" layoutY="155.0"
+                                       text="5. Убедившись в отсутствии напряжения на объекте, подключите мегаомметр."
+                                       wrapText="true" AnchorPane.leftAnchor="15.0"
+                                       AnchorPane.rightAnchor="15.0">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="14.0" layoutY="33.0"
+                                       text="1. Убедиться что на мегаометре стоим штамп указывающий что он проверен."
+                                       wrapText="true">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                            </AnchorPane>
+                        </Tab>
+                        <Tab text="Шаг второй">
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+                                        prefWidth="200.0">
+                                <Label layoutX="14.0" layoutY="22.0" text="Действия:"
+                                       underline="true" wrapText="true"
+                                       AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                                    <font>
+                                        <Font name="System Bold" size="14.0"/>
+                                    </font>
+                                </Label>
+                                <Label layoutX="14.0" layoutY="33.0"
+                                       text="1. Сначала измеряется искомое сопротивления между фазными жилами испытуемого кабеля («А»-«В», «В»-«С» и «А»-«С»)."
+                                       wrapText="true" AnchorPane.leftAnchor="15.0"
+                                       AnchorPane.rightAnchor="15.0">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="15.0" layoutY="77.0"
+                                       text="2. Затем по очереди оценивается состояние изоляция каждой из фаз относительно нулевого провода (N)."
+                                       wrapText="true" AnchorPane.leftAnchor="15.0"
+                                       AnchorPane.rightAnchor="15.0">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="14.0" layoutY="103.0"
+                                       text="3. Снять остаточное напряжение на жилах кабеля."
+                                       wrapText="true">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="15.0" layoutY="129.0" text="Важно!"
+                                       underline="true" wrapText="true"
+                                       AnchorPane.topAnchor="129.0">
+                                    <font>
+                                        <Font name="System Bold" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="14.0" layoutY="153.0"
+                                       text="Для проведения измерений вращать рукоятку мегаомметра в течении 1 минуты."
+                                       wrapText="true">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                                <Label layoutX="15.0" layoutY="179.0"
+                                       text="Если все в исправном состоянии стреклка будет с правой стороны."
+                                       wrapText="true">
+                                    <font>
+                                        <Font name="Times New Roman" size="14.0"/>
+                                    </font>
+                                    <padding>
+                                        <Insets top="10.0"/>
+                                    </padding>
+                                </Label>
+                            </AnchorPane>
+                        </Tab>
+                        <Tab text="Мегаометр">
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+                                        prefWidth="200.0">
+                                <Label layoutX="14.0" layoutY="22.0" text="Как выглядит:"
+                                       underline="true" wrapText="true"
+                                       AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                                    <font>
+                                        <Font name="System Bold" size="14.0"/>
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="372.0" fitWidth="496.0" layoutX="15.0"
+                                           layoutY="33.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <Image url="@Om/Мегаометр.png"/>
+                                </ImageView>
+                            </AnchorPane>
+                        </Tab>
+                        <Tab text="Таблица изм...">
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+                                        prefWidth="200.0">
+                                <Label layoutX="14.0" layoutY="22.0"
+                                       text="Таблица допустимых значений:" underline="true"
+                                       wrapText="true" AnchorPane.leftAnchor="15.0"
+                                       AnchorPane.topAnchor="13.0">
+                                    <font>
+                                        <Font name="System Bold" size="14.0"/>
+                                    </font>
+                                </Label>
+                                <GridPane gridLinesVisible="true" layoutX="25.0" layoutY="54.0"
+                                          prefHeight="333.0" prefWidth="628.0"
+                                          AnchorPane.leftAnchor="15.0"
+                                          AnchorPane.rightAnchor="15.0"
+                                          AnchorPane.topAnchor="45.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES"
+                                                           minWidth="10.0" prefWidth="180.0"/>
+                                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES"
+                                                           minWidth="10.0" prefWidth="100.0"/>
+                                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES"
+                                                           minWidth="10.0" prefWidth="100.0"/>
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="50.0" minHeight="15.0"
+                                                        prefHeight="50.0" valignment="CENTER"
+                                                        vgrow="SOMETIMES"/>
+                                        <RowConstraints maxHeight="148.19998779296876"
+                                                        minHeight="10.0" prefHeight="90.0"
+                                                        valignment="CENTER" vgrow="SOMETIMES"/>
+                                        <RowConstraints maxHeight="162.99999084472654"
+                                                        minHeight="10.0"
+                                                        prefHeight="118.39995117187497"
+                                                        valignment="CENTER" vgrow="SOMETIMES"/>
+                                        <RowConstraints maxHeight="147.0000518798828"
+                                                        minHeight="10.0"
+                                                        prefHeight="98.20004882812498"
+                                                        valignment="CENTER" vgrow="SOMETIMES"/>
+                                    </rowConstraints>
+                                    <Label alignment="CENTER" prefHeight="18.0"
+                                           prefWidth="263.0" text="Наименование элемента"
+                                           wrapText="true">
+                                        <font>
+                                            <Font name="System Bold" size="12.0"/>
+                                        </font>
+                                    </Label>
+                                    <Label alignment="CENTER" prefHeight="18.0"
+                                           prefWidth="208.0"
+                                           text="Напряжение  мегаомметра, В"
+                                           textAlignment="CENTER" GridPane.columnIndex="1">
+                                        <font>
+                                            <Font name="System Bold" size="12.0"/>
+                                        </font>
+                                    </Label>
+                                    <Label text="Сопротивление изоляции, МОм"
+                                           textAlignment="CENTER" wrapText="true"
+                                           GridPane.columnIndex="2">
+                                        <font>
+                                            <Font name="System Bold" size="12.0"/>
+                                        </font>
+                                    </Label>
+                                    <Label prefHeight="68.0" prefWidth="267.0"
+                                           text="Вторичные цепи распределительных устройств, цепи питания приводов выключателей и разъединителей, цепи управления, защиты, телемеханики и т.п."
+                                           textAlignment="CENTER" wrapText="true"
+                                           GridPane.rowIndex="1"/>
+                                    <Label alignment="CENTER" prefHeight="18.0"
+                                           prefWidth="182.0" text="1000-2500"
+                                           textAlignment="CENTER" GridPane.columnIndex="1"
+                                           GridPane.rowIndex="1"/>
+                                    <Label alignment="CENTER" prefHeight="18.0"
+                                           prefWidth="185.0" text="не мене 1"
+                                           GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                                    <Label alignment="CENTER" prefHeight="106.0"
+                                           prefWidth="253.0"
+                                           text="Цепи управления защиты, автоматики , телемеханики, возбуждения машин постоянного тока на напряжение 500-1000В, присоединенных к главным цепям"
+                                           textAlignment="CENTER" wrapText="true"
+                                           GridPane.rowIndex="2"/>
+                                    <Label alignment="CENTER" prefHeight="18.0"
+                                           prefWidth="185.0" text="500-1000"
+                                           GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                                    <Label alignment="CENTER" layoutX="110.0" layoutY="77.0"
+                                           prefHeight="18.0" prefWidth="181.0"
+                                           text="не мене 1" GridPane.columnIndex="2"
+                                           GridPane.rowIndex="2"/>
+                                    <Label layoutX="210.0" layoutY="77.0" prefHeight="34.0"
+                                           prefWidth="250.0"
+                                           text="Шинки постоянного тока и шинки напряжения на щитах управления"
+                                           textAlignment="CENTER" wrapText="true"
+                                           GridPane.rowIndex="3"/>
+                                    <Label alignment="CENTER" prefHeight="18.0"
+                                           prefWidth="186.0" text="500-1000"
+                                           GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+                                    <Label alignment="CENTER" prefHeight="18.0"
+                                           prefWidth="181.0" text="не мене 10"
+                                           GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+                                </GridPane>
+                            </AnchorPane>
+                        </Tab>
+                    </TabPane>
+                </center>
+            </BorderPane>
+        </AnchorPane>
+    </SplitPane>
+</AnchorPane>
