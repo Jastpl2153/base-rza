@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="700.0" prefHeight="500.0"
+            prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.LaborProtectionController">
+   <SplitPane dividerPositions="0.1034136546184739" layoutX="200.0" layoutY="86.0" orientation="VERTICAL"
+              prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane maxHeight="160.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <Label alignment="CENTER" layoutX="258.0" layoutY="11.0" text="Технические мероприятия" wrapText="true"
+                AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="5.0">
+            <font>
+               <Font name="System Bold" size="14.0"/>
+            </font>
+         </Label>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="440.0">
+         <BorderPane layoutX="200.0" layoutY="62.0" prefHeight="354.4" prefWidth="599.2"
+                     AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                     AnchorPane.topAnchor="0.0">
+            <center>
+               <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE"
+                        BorderPane.alignment="CENTER">
+                  <Tab text="Мероприятия">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Произведены все необходимые отключения и отсоединения."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0"
+                               AnchorPane.topAnchor="33.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="13.0" text="Какие мероприятия?" underline="true"
+                               wrapText="true" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="2. Приняты меры, препятствующие подаче напряжения в следствии ошибочного или самопроизвольного включения."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="103.0"
+                               text="3. На приводах ручного управления и ключах дистанционного управления вывешены запрещающие плакаты."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="129.0"
+                               text="4. Проверено отсутствие напряжение на токоведущих частях."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="155.0"
+                               text="5. Установлено переносное заземления (Вкдючены заземляющие ножы)"
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="181.0"
+                               text="6. Вывешены указательные плакаты &quot;Заземлено&quot;, при необходимости ограждено рабочее место, вывешены предупреждающие и предписывающие плакаты."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+               </TabPane>
+            </center>
+         </BorderPane>
+      </AnchorPane>
+   </SplitPane>
+</AnchorPane>
