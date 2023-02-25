@@ -30,7 +30,7 @@
          <Button mnemonicParsing="false" onAction="#topicBut1" text="Требование к работникам"/>
          <Button mnemonicParsing="false" onAction="#topicBut2" text="Организационные мероприятия"
                  GridPane.rowIndex="1"/>
-         <Button disable="true" mnemonicParsing="false" text="Наряд допуск" GridPane.rowIndex="2"/>
+         <Button mnemonicParsing="false" onAction="#topicBut3" text="Наряд допуск" GridPane.rowIndex="2"/>
          <Button disable="true" mnemonicParsing="false" text="Распоряжение"
                  GridPane.rowIndex="3"/>
          <Button disable="true" mnemonicParsing="false"
