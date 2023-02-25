@@ -14,4 +14,10 @@ public class LaborProtectionController{
         stage.setScene(new Scene(fxmlLoader.load()));
         stage.show();
     }
+    public void topicBut2() throws IOException {
+        Stage stage = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/LaborProtection/OrganisArrangements.fxml"));
+        stage.setScene(new Scene(fxmlLoader.load()));
+        stage.show();
+    }
 }

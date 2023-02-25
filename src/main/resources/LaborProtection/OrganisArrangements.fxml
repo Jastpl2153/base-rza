@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="600.0" prefHeight="500.0"
+            prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <SplitPane dividerPositions="0.1034136546184739" layoutX="200.0" layoutY="86.0" orientation="VERTICAL"
+              prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane maxHeight="160.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <Label alignment="CENTER" layoutX="258.0" layoutY="11.0" text="Организационные мероприятия"
+                wrapText="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+            <font>
+               <Font name="System Bold" size="14.0"/>
+            </font>
+         </Label>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="440.0">
+         <BorderPane layoutX="200.0" layoutY="62.0" prefHeight="354.4" prefWidth="599.2"
+                     AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                     AnchorPane.topAnchor="0.0">
+            <center>
+               <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE"
+                        BorderPane.alignment="CENTER">
+                  <Tab text="Мероприятия">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="Организационные мероприятия, обеспечивают безопасность работ в электроустановках."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0"
+                               AnchorPane.topAnchor="33.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="89.0"
+                               text="1. Оформление работ нарядом-допуском, распоряжением или перечнем работ, выполняемых в порядке текущей эксплуатации."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="13.0" text="Для чего нужны?" underline="true"
+                               wrapText="true" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="59.0" text="Виды мероприятий?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="133.0"
+                               text="2. Выдача разрешения на подготовку рабочего места, подготовка рабочего места."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="159.0"
+                               text="3. Допуск к работе; надзор во время работы." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="185.0"
+                               text="4. Оформление перерыва, перехода и окончание работ."
+                               wrapText="true">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Отв. лица">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="13.0" text="Ответственные лица?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label fx:id="lab1" layoutX="15.0" layoutY="33.0"
+                               text="1. Выдающий наряд-допуск, отдающий распоряжение, утверждающий перечень работ, выполняемых в порядке текущей эксплуатации."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="77.0" maxHeight="-Infinity" maxWidth="-Infinity"
+                               text="2. выдающий разрешение на подготовку рабочего места и на допуск."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="129.0" text="4. Допускающий." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="103.0" text="3. Ответственный руководитель работ."
+                               wrapText="true">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="155.0" text="5. Производитель работ."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="181.0" text="6. Наблюдающий." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="207.0" text="7. Члены бригады." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Выд-ий наряд...">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="14.0" layoutY="85.0"
+                               text="Когда нету работника кто может выдавать наряд и распоряжения?"
+                               underline="true" wrapText="true" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="115.0"
+                               text="В случае отсутствия работников, имеющих право выдачи нарядов-допусков и распоряжений, при работах по предотвращению аварий или ликвидации их последствий допускается выдача нарядов-допусков и распоряжений работниками из числа оперативного персонала, имеющими группу IV по электробезопасности"
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="14.0" text="Какой это персонал?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Административно-техниеский  с V группой выше 1000 В."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="2. Административно-техниеский  с  IV группой до 1000 В."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="176.0" text="За что отвечает?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="208.0"
+                               text="1. За достаточность и правильность указанных мер безопасности."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="234.0"
+                               text="2. За качественный и количественный состав бригады." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="260.0"
+                               text="3. За назначение ответственных за безопасное ведение работ."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="286.0"
+                               text="4. За соответствие групп по электробезопасности работников."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="312.0"
+                               text="5. За проведение целевого инструктажа." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Выд-ий разреш...">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="14.0" text="Какой это персонал?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Оперативный персонал не ниже IV группы." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="Так же допускается право выдачи разрешений на подготовку рабочих мест и допуск предоставлять работникам из числа административно-технического персонала, имеющим группу по электробезопасности не ниже IV."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="103.0" text="За что отвечает?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="133.0"
+                               text="1. Дает команду на отклюение и заземление оборудования."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="159.0"
+                               text="2. За координацию времени и места работ." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="185.0"
+                               text="3. За достатоные меры безопасности ведения работ на отклюение и заземления."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Ответ. руковод...">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="14.0" text="Какой это персонал?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Административно-техниеский  с V группой выше 1000 В."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="2. Административно-техниеский  с  IV группой до 1000 В."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="85.0" text="За что отвечает?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="115.0" text="1. За выполнение работ в наряде."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="141.0" text="2. За подготовку рабочего места."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="167.0"
+                               text="3. За принимаемые дополниельные меры безопасности." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="194.0" text="4. За необходимые условия труда."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="220.0" text="5. За качество целевого инструктажа."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="246.0"
+                               text="6. За организаци. безопасного ведения работ." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Допускающий">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="14.0" text="Какой это персонал?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Оперативный персонал с  IV группой выше 1000 В." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="2. Оперативный персонал с  III группой до 1000 В." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="85.0" text="За что отвечает?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="115.0"
+                               text="1. За достаточность мер безопасности." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="141.0" text="2 За правильный допуск."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="167.0"
+                               text="3. За полноту и качество проводимого им целевого инструктажа."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Произ. работ">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="14.0" text="Какой это персонал?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Электротехнический персонал с  IV группой выше 1000 В."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="2. Электротехнический персонал с  III группой до 1000 В."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="85.0" text="За что отвечает?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="115.0" text="1. За соответствие рабочего места."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="141.0"
+                               text="2. За проведение целевого инструктажа." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="167.0"
+                               text="3. Наличие и исправность СИЗ, инструмента." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="194.0"
+                               text="4. За наличие ограждений, плакатов и заземлений." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="220.0" text="5. За безопасное проведение работ."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="246.0" text="6. Постонный контроль за бригадой."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Наблюдающий">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="14.0" text="Какой это персонал?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Электротехнический персонал не ниже III группы." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0" text="За что отвечает?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="89.0" text="1. За соответствие рабочего места."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="115.0"
+                               text="2. За проведение целевого инструктажа." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="141.0"
+                               text="3. За наличие ограждений, плакатов и заземлений." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="167.0"
+                               text="4. За безопасность членов бригады от поражения электическим током."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Членый бригады">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="14.0" text="За что отвечает?" underline="true"
+                               wrapText="true" AnchorPane.topAnchor="14.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="34.0"
+                               text="1. За соблюдения правил охраны труда и инструкций указанный во время получения указаний."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+               </TabPane>
+            </center>
+         </BorderPane>
+      </AnchorPane>
+   </SplitPane>
+</AnchorPane>
