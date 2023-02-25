@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="700.0" prefHeight="500.0"
+            prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.LaborProtectionController">
+   <SplitPane dividerPositions="0.1034136546184739" layoutX="200.0" layoutY="86.0" orientation="VERTICAL"
+              prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane maxHeight="160.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <Label alignment="CENTER" layoutX="258.0" layoutY="11.0" text="Плакаты" wrapText="true"
+                AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="5.0">
+            <font>
+               <Font name="System Bold" size="14.0"/>
+            </font>
+         </Label>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="440.0">
+         <BorderPane layoutX="200.0" layoutY="62.0" prefHeight="354.4" prefWidth="599.2"
+                     AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                     AnchorPane.topAnchor="0.0">
+            <center>
+               <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE"
+                        BorderPane.alignment="CENTER">
+                  <Tab text="Виды">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <ScrollPane prefHeight="415.2" prefWidth="699.2" AnchorPane.bottomAnchor="0.0"
+                                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                    AnchorPane.topAnchor="0.0">
+                           <AnchorPane prefHeight="850.0" prefWidth="680.0">
+                              <Label prefHeight="26.0" prefWidth="128.0" text="1. Запрещающие."
+                                     wrapText="true" AnchorPane.leftAnchor="15.0"
+                                     AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="33.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0"/>
+                                 </font>
+                                 <padding>
+                                    <Insets top="10.0"/>
+                                 </padding>
+                              </Label>
+                              <Label text="Какие бывают виды плакатов?" underline="true"
+                                     wrapText="true" AnchorPane.leftAnchor="15.0"
+                                     AnchorPane.topAnchor="13.0">
+                                 <font>
+                                    <Font name="System Bold" size="14.0"/>
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="167.0" fitWidth="274.0" layoutX="14.0"
+                                         layoutY="59.0" pickOnBounds="true" preserveRatio="true"
+                                         AnchorPane.topAnchor="59.0">
+                                 <Image url="@Posters/Запрещающий.jpg"/>
+                              </ImageView>
+                              <Label layoutX="15.0" layoutY="196.0" prefHeight="26.0"
+                                     prefWidth="128.0" text="2. Указательные" wrapText="true">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0"/>
+                                 </font>
+                                 <padding>
+                                    <Insets top="10.0"/>
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="167.0" fitWidth="274.0" layoutX="14.0"
+                                         layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@Posters/Указательный.jpg"/>
+                              </ImageView>
+                              <Label layoutX="15.0" layoutY="391.0" prefHeight="26.0"
+                                     prefWidth="128.0" text="3. Предупреждающие." wrapText="true"
+                                     AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0"/>
+                                 </font>
+                                 <padding>
+                                    <Insets top="10.0"/>
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="167.0" fitWidth="274.0" layoutX="14.0"
+                                         layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@Posters/Предупреждающий2.jpeg"/>
+                              </ImageView>
+                              <ImageView fitHeight="167.0" fitWidth="274.0" layoutX="300.0"
+                                         layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@Posters/Предупреждающий1.jpeg"/>
+                              </ImageView>
+                              <Label layoutX="15.0" layoutY="577.0" prefHeight="26.0"
+                                     prefWidth="128.0" text="4. Предписывающие." wrapText="true">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0"/>
+                                 </font>
+                                 <padding>
+                                    <Insets top="10.0"/>
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="184.0" fitWidth="234.0" layoutX="14.0"
+                                         layoutY="616.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@Posters/Предписывающий.jpg"/>
+                              </ImageView>
+                           </AnchorPane>
+                        </ScrollPane>
+                     </AnchorPane>
+                  </Tab>
+               </TabPane>
+            </center>
+         </BorderPane>
+      </AnchorPane>
+   </SplitPane>
+</AnchorPane>
