@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<ScrollPane fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="322.4"
+            prefWidth="598.4" xmlns="http://javafx.com/javafx/19">
+   <content>
+      <AnchorPane prefHeight="700.0" prefWidth="200.0">
+         <children>
+            <GridPane layoutX="46.0" layoutY="94.0" prefHeight="800.0" prefWidth="564.8" AnchorPane.bottomAnchor="0.0"
+                      AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+               </rowConstraints>
+               <children>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Измерение сопротивление изоляции в цепях постоянного и переменного тока."/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Измерение сопротивление изоляции в цепях ТТ." GridPane.rowIndex="1"/>
+                  <Button disable="true" mnemonicParsing="false" text="Проверка полярности ТТ." GridPane.rowIndex="2"/>
+                  <Button disable="true" mnemonicParsing="false" text="Построение вольт-амперной характеристики (ВАХ)."
+                          GridPane.rowIndex="3"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Измерение омического сопротивления вторичных обмоток ТТ и всей цепи."
+                          GridPane.rowIndex="4"/>
+                  <Button disable="true" mnemonicParsing="false" text="Проверка и регулировка реле тока и напряжения."
+                          GridPane.rowIndex="5"/>
+                  <Button disable="true" mnemonicParsing="false" text="Проверка и регулировка промежуточных реле."
+                          GridPane.rowIndex="6"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Действие персонала в аварийных ситуациях при отыскании земли." GridPane.rowIndex="7"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Схема распределение оперативного и постоянного тока." GridPane.rowIndex="8"/>
+                  <Button disable="true" mnemonicParsing="false" text="Исполнительные схемы устройств релейной защиты."
+                          GridPane.rowIndex="9"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Главная схема эл. соединений. Компоновка оборудования РЗА блоков 1-6. Общие требования."
+                          GridPane.rowIndex="10"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Схема управления и сигнализации и обдува блоков 1-6." GridPane.rowIndex="11"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Зарядно выпрямительное устройство ЩПТ, порядок выполнения ТО, устройство."
+                          GridPane.rowIndex="12"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="РЗА ВЛ-110, 220кВ. Режим АПВ; Цепи упр. выключателями 110, 220 кВ, "
+                          GridPane.rowIndex="13"/>
+                  <Button disable="true" mnemonicParsing="false" text="Основные и резервные защиты линий."
+                          GridPane.rowIndex="14"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Высокочастотныйй тракт. Назначение элементов входящих в.ч. тракт."
+                          GridPane.rowIndex="15"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Протиаварийная автоматика АПНУ. Назначение, принцип действия." GridPane.rowIndex="16"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Назначение и виды против. автоматики, применяемых в энергосистемах и эл.станциях."
+                          GridPane.rowIndex="17"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Системы выпрямителей. Устройств тиристорных преобразователей, проверка их исправности."
+                          GridPane.rowIndex="18"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Назначение и принцип действия возбудителей РВ!, РВ2." GridPane.rowIndex="19"/>
+                  <Button disable="true" mnemonicParsing="false"
+                          text="Устройство и проверка регуляторов типа АРВ-СДП!, AVR-3МТК." GridPane.rowIndex="20"/>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
