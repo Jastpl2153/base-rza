@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="500.0" minHeight="400.0" minWidth="630.0" prefHeight="500.0" prefWidth="700.0"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <SplitPane dividerPositions="0.1034136546184739" layoutX="190.0" layoutY="76.0" orientation="VERTICAL"
+              prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane maxHeight="160.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <Label alignment="CENTER" layoutX="258.0" layoutY="11.0" text="Группы электробезопасноти" wrapText="true"
+                AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="5.0">
+            <font>
+               <Font name="System Bold" size="14.0"/>
+            </font>
+         </Label>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="440.0">
+         <BorderPane layoutX="200.0" layoutY="62.0" prefHeight="354.4" prefWidth="599.2"
+                     AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                     AnchorPane.topAnchor="0.0">
+            <center>
+               <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE"
+                        BorderPane.alignment="CENTER">
+                  <Tab text="Группа I ">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="Группа I по электробезопасности распространяется на неэлектротехнический персонал"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0"
+                               AnchorPane.topAnchor="33.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="89.0"
+                               text="Присвоение группы I ппроизводится путем проведения инструктажа, который должен завершаться проверкой знаний в форме устного опроса и (при необходимости) проверкой приобретенных навыков безопасных способов работы или оказания первой помощи при поражении электрическим"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="13.0" text="На кого распространяется?"
+                               underline="true" wrapText="true" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="59.0" text="Когда присваевается?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="150.0" text="Кем присваивается?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="177.0"
+                               text="Присвоение I группы по электробезопасности проводится работником из числа электротехнического персонала, имеющего группу III по электробезопасности или специалистом по охране труда, имеющим группу IV по электробезопасности или выше"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Группа II">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="13.0" text="Какие требования?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label fx:id="lab1" layoutX="15.0" layoutY="33.0"
+                               text="1. Элементарные технические знания об электроустановке и ее оборудовании."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0" maxHeight="-Infinity" maxWidth="-Infinity"
+                               text="2. Отчетливое представление об опасности электрического тока, опасности приближения к токоведущим частям."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="103.0"
+                               text="3. Знание основных мер предосторожности при работах в электроустановках."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="129.0"
+                               text="4. Практические навыки оказания первой помощи пострадавшим."
+                               wrapText="true">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="155.0"
+                               text="5. Работники с основным общим или со средним полным образованием должны пройти обучение в образовательных организациях с целью получения знаний и навыков, указанных для данной группы, в объеме не менее 72 часов."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Группа III">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="181.0" text="При каком возрасте можно присвоить?"
+                               underline="true" wrapText="true" AnchorPane.leftAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="211.0"
+                               text="Группу III по электробезопасности разрешается присваивать работникам только по достижении 18-летнего возраста."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="14.0" text="Какие требования?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Элементарные познания в общей электротехнике." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="2. Знание электроустановки и порядка ее технического обслуживания."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="85.0"
+                               text="3. Знание общих правил охраны труда, в том числе правил допуска к работе."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="111.0"
+                               text="4. Умение обеспечить безопасное ведение работы и вести надзор за работающими в электроустановках."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="137.0"
+                               text="5. Знание правил (инструкций) по освобождению пострадавшего от действия электрического тока, оказания первой помощи пострадавшим."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="255.0"
+                               text="На какие электроустановки можно допускаться?" underline="true"
+                               wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="285.0"
+                               text="С  III группой электробезопасноти , также при наличие право на допуск, можно допускаться на электроустановки до 1000 В "
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Группа IV">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="14.0" layoutY="14.0" text="Какие требования?" underline="true"
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="33.0"
+                               text="1. Знание электротехники в объеме среднего профессионального образования."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="59.0"
+                               text="2. Полное представление об опасности при работах в электроустановках."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="85.0"
+                               text="3. Знание Правил, правил технической эксплуатации электрооборудования, правил (инструкций) пользования и испытаний средств защиты, устройства электроустановок и пожарной безопасности в объеме занимаемой должности."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="146.0"
+                               text="4. Знание схем электроустановок и оборудования обслуживаемого участка, знание технических мероприятий, обеспечивающих безопасность работ."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="190.0"
+                               text="5. Умение проводить инструктаж, организовывать безопасное проведение работ, осуществлять надзор за членами бригады."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="234.0"
+                               text="6. Знание правил (инструкций) по освобождению пострадавшего от действия электрического тока, оказания первой помощи и умение практически оказывать ее пострадавшему."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="278.0"
+                               text="7. Умение обучать персонал правилам охраны труда, практическим приемам оказания первой помощи пострадавшим на производстве и умение практически ее оказывать."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+               </TabPane>
+            </center>
+         </BorderPane>
+      </AnchorPane>
+   </SplitPane>
+</AnchorPane>
