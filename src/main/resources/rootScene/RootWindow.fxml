@@ -28,7 +28,9 @@
                 <TitledPane animated="false" text="Все по охране труда">
                     <content>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0">
-
+                            <fx:include source="LaborProtection.fxml" AnchorPane.bottomAnchor="0.0"
+                                        AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                        AnchorPane.topAnchor="0.0"/>
                         </AnchorPane>
                     </content>
                     <font>
