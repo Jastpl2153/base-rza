@@ -38,7 +38,7 @@
          <Button mnemonicParsing="false" onAction="#topicBut6" text="Технические мероприятия"
                  GridPane.rowIndex="5"/>
          <Button mnemonicParsing="false" onAction="#topicBut7" text="Плакаты" GridPane.rowIndex="6"/>
-         <Button disable="true" mnemonicParsing="false" text="Инструменты" GridPane.rowIndex="7"/>
+         <Button mnemonicParsing="false" onAction="#topicBut8" text="Инструменты" GridPane.rowIndex="7"/>
          <Button mnemonicParsing="false" onAction="#topicBut9" text="Виды инструктажей" GridPane.rowIndex="8"/>
          <Button mnemonicParsing="false" onAction="#topicBut10" text="Журналы" GridPane.rowIndex="9"/>
       </GridPane>
