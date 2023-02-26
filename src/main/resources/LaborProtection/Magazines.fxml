@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="500.0" minHeight="400.0" minWidth="630.0" prefHeight="500.0" prefWidth="700.0"
+            xmlns="http://javafx.com/javafx/19">
+   <SplitPane dividerPositions="0.1034136546184739" layoutX="190.0" layoutY="76.0" orientation="VERTICAL"
+              prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane maxHeight="160.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <Label alignment="CENTER" layoutX="258.0" layoutY="11.0" text="Журналы" wrapText="true"
+                AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="5.0">
+            <font>
+               <Font name="System Bold" size="14.0"/>
+            </font>
+         </Label>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="440.0">
+         <BorderPane layoutX="200.0" layoutY="62.0" prefHeight="354.4" prefWidth="599.2"
+                     AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                     AnchorPane.topAnchor="0.0">
+            <center>
+               <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE"
+                        BorderPane.alignment="CENTER">
+                  <Tab text="Журналы">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="15.0" layoutY="33.0"
+                               text="1. Журнал учета работ по нарядам-допуска и распоряжениям."
+                               wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0"
+                               AnchorPane.topAnchor="33.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="13.0"
+                               text="В каких журналах производится регистрация наряда-допуска и распоряжения?"
+                               underline="true" wrapText="true" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0"/>
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="59.0"
+                               text="2. Журнал проведения целевых инструктажей." wrapText="true"
+                               AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="85.0" text="3. Журнал выдачи ключей."
+                               wrapText="true" AnchorPane.leftAnchor="15.0"
+                               AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font name="Times New Roman" size="14.0"/>
+                           </font>
+                           <padding>
+                              <Insets top="10.0"/>
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+               </TabPane>
+            </center>
+         </BorderPane>
+      </AnchorPane>
+   </SplitPane>
+</AnchorPane>
