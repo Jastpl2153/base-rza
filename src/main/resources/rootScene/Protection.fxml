@@ -9,7 +9,7 @@
 
 <ScrollPane fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="322.4"
             prefWidth="598.4" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="controller.TechStudiesController">
+            fx:controller="controller.ProtectionController">
    <AnchorPane prefHeight="700.0" prefWidth="200.0">
       <GridPane layoutX="46.0" layoutY="94.0" prefHeight="800.0" prefWidth="564.8" AnchorPane.bottomAnchor="0.0"
                 AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -39,8 +39,8 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
          </rowConstraints>
-         <Button disable="true" mnemonicParsing="false" text="Газовая защита"/>
-         <Button disable="true" mnemonicParsing="false" onAction="#onTopic2ButtonClick"
+         <Button mnemonicParsing="false" onAction="#gasProtection" text="Газовая защита"/>
+         <Button disable="true" mnemonicParsing="false"
                  text="Дифференциальная защита блока" GridPane.rowIndex="1"/>
          <Button disable="true" mnemonicParsing="false" text="Дифференциальная защита генератора"
                  GridPane.rowIndex="2"/>
