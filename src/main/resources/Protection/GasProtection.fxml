@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="500.0" minHeight="400.0" minWidth="630.0" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <SplitPane dividerPositions="0.1034136546184739" layoutX="190.0" layoutY="76.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane maxHeight="160.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <Label alignment="CENTER" layoutX="258.0" layoutY="11.0" text="Газовая защита" wrapText="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Label>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="440.0">
+         <BorderPane layoutX="200.0" layoutY="62.0" prefHeight="354.4" prefWidth="599.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <center>
+               <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                  <Tab text="Вступление">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="14.0" layoutY="13.0" text="Что является причиной срабатывания газовой защиты?" underline="true" wrapText="true" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0" text="Повреждения трансформатора, возникающие внутри его кожуха,сопровождаются электрической дугой или нагревом деталей, что приводит к разложению масла и изоляционных материалов и образованию летучих газов. Будучи легче масла, газы поднимаются в расширитель 2, который является самой высокой частью трансформатора. " wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="260.0" fitWidth="335.0" layoutX="15.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+                           <Image url="@FileProtection/Трансформатор.jpeg" />
+                        </ImageView>
+                        <TextFlow layoutX="309.0" layoutY="131.0" prefHeight="272.0" prefWidth="356.0" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="15.0">
+                           <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="     При интенсивном газообразовании, имеющем место при значительных повреждениях, бурно расширяющиеся газы создают сильное давление, под влиянием которого масло в кожухе трансформатора приходит в движение, перемещаясь в сторону расширителя. ">
+                              <font>
+                                 <Font size="14.0" />
+                              </font>
+                           </Text>
+                           <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Таким образом, образование газов в кожухе трансформатора и движение масла в сторону расширителя могут служить признаком повреждения. внутри трансформатора. ">
+                              <font>
+                                 <Font name="System Bold" size="14.0" />
+                              </font>
+                           </Text>
+                           <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Эти признаки используются для выполнения специальной защиты при помощи газовых реле, реагирующих на появление газа и движение масла. Газовое реле 1 устанавливается в трубе, соединяющей кожух трансформатора с расширителем.">
+                              <font>
+                                 <Font size="14.0" />
+                              </font>
+                           </Text>
+                        </TextFlow>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Газовое реле поплавкого типа">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <ScrollPane fitToWidth="true" layoutX="42.0" prefHeight="415.2" prefWidth="699.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="720.0">
+                              <Label layoutX="14.0" layoutY="14.0" text="Устройство поплавкового газового реле. " underline="true" wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="14.0" layoutY="33.0" text="Реле состоит из чугунного кожуха 1, имеющего вид тройного патрубка с фланцами для соединения с трубой к расширителю. Внутри реле расположены два подвижных поплавка 2а и 2б плавающих в масле. Каждый поплавок свободно вращается на оси, закрепленной на стойке. На торце поплавков располагается ртутные контакты 3, представляющие собой стеклянные колбочки с впаянными в нее контактами и ртутью внутри. При определенном положении поплавком ртуть замыкает контакты." wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets top="10.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="355.0" fitWidth="334.0" layoutX="14.0" layoutY="152.0" pickOnBounds="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="152.0">
+                                 <Image url="@FileProtection/Поплавковое_реле.jpg" />
+                              </ImageView>
+                              <Label layoutX="361.0" layoutY="143.0" text="Контакты верхнего поплавка действуют на сигнал, а нижнего на отключение." wrapText="true" AnchorPane.leftAnchor="361.0" AnchorPane.rightAnchor="14.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="361.0" layoutY="183.0" text="Принцип действия реле." AnchorPane.leftAnchor="361.0" AnchorPane.rightAnchor="15.0">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="361.0" layoutY="203.0" text="Кожух реле находится ниже уровня масла в расширителе, поэтому он всегда заполнен маслом. Поплавки стремятся всплыть, занимают самое верхнее положение. При таком положении контакты разомкнуты." wrapText="true" AnchorPane.leftAnchor="361.0" AnchorPane.rightAnchor="15.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextFlow layoutX="361.0" layoutY="303.0" prefHeight="178.0" prefWidth="326.0" AnchorPane.leftAnchor="361.0" AnchorPane.rightAnchor="15.0">
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="При небольших повреждениях ">
+                                    <font>
+                                       <Font name="System Bold Italic" size="14.0" />
+                                    </font>
+                                 </Text>
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="образование газа происходит медленно, и он небольшими пузырьками поднимается к расширителю трансформатора. Проходя через газовое реле пузырьки газа заполняют верхнюю часть его кожуха, вытесняя масло. По мере понижения уровня масла верхний контакт опускается и через некоторое время, зависящее от интенсивности газообразования, поплавок достигает такого положения, при котором его контакты замыкаются">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Text>
+                              </TextFlow>
+                              <TextFlow layoutX="15.0" layoutY="509.0" prefWidth="200.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="При значительных повреждениях ">
+                                    <font>
+                                       <Font name="System Bold Italic" size="14.0" />
+                                    </font>
+                                 </Text>
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="под влиянием давления, создаваемого бурно образующими газами, масло приходит в движение, сообщая толчок нижнему поплавку. Под его действием поплавок мгновенно замыкается свои контакты, посылая импульс на отключение.">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Text>
+                              </TextFlow>
+                              <Label layoutX="14.0" layoutY="565.0" text="Выводы:" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextFlow layoutX="15.0" layoutY="585.0" prefWidth="660.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Из рассмотренного принципа действия реле следует, что оно способно различать степень повреждения в трансформаторе. При малых повреждениях оно дает - " wrappingWidth="650.6253662109375">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Text>
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="сигнал">
+                                    <font>
+                                       <Font name="System Bold Italic" size="14.0" />
+                                    </font>
+                                 </Text>
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text=", при больших - ">
+                                    <font>
+                                       <Font size="14.0" />
+                                    </font>
+                                 </Text>
+                                 <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="отключение.">
+                                    <font>
+                                       <Font name="System Bold Italic" size="14.0" />
+                                    </font>
+                                 </Text>
+                              </TextFlow>
+                              <Label layoutX="16.0" layoutY="641.0" text="Важный момент." wrapText="true" AnchorPane.leftAnchor="15.0">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Text fontSmoothingType="LCD" layoutX="17.0" layoutY="676.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Газовая защита также реагирует на понижение уровня масла. В этом случае первым сработает сигнальный контакт, а затем при продолжающемся снижении уровня масла отключающий контакт." wrappingWidth="650.6253662109375" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </AnchorPane>
+                        </ScrollPane>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Лопастные реле">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <ScrollPane fitToWidth="true" layoutX="70.0" layoutY="-12.0" prefHeight="415.2" prefWidth="699.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <AnchorPane minHeight="0.0" minWidth="0.0">
+                              <Label layoutX="14.0" layoutY="14.0" text="Устройство лопастное газового реле. " underline="true" wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="15.0" layoutY="33.0" prefHeight="170.0" prefWidth="257.0" text="Сигнальный элемент этого реле выполнен в виде поплавка, как и у реле поплавкого типа. Нижний отключающий контакт выполняется в виде поворотной лопасти. При движении масла или потока газов лопасть поворачивается замыкая контакты." wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="426.0">
+                                 <padding>
+                                    <Insets top="10.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="305.0" fitWidth="410.0" layoutX="275.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@FileProtection/Лопастное_реле.jpg" />
+                              </ImageView>
+                           </AnchorPane>
+                        </ScrollPane>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Реле с чашкообразными элементами">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="14.0" layoutY="14.0" text="Устройство лопастное газового реле. " underline="true" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="34.0" text="Сигнальный и отключающий элементы реле представляют собой открытые плоскодонные чашки 1 и 2. Каждая закреплена на оси 3 и может вращаться вокруг нее. С корпусом чашки связаны подвижный контакт 4 (у верхней чашки аналогично) При опускании чашки подвижный контакт замыкается с неподвижным 5." wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <ImageView fitHeight="282.0" fitWidth="356.0" layoutX="15.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                           <Image url="@FileProtection/Чашкообразное_реле.png" />
+                        </ImageView>
+                     </AnchorPane>
+                  </Tab>
+                  <Tab text="Заключение">
+                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <Label layoutX="14.0" layoutY="14.0" text="Особенности газовой защиты." underline="true" wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="33.0" text="По своему принципу действия газовая защита может работать не только при повреждениях и опасных ненормальных режимах, но и при появлении в кожухе трансформатора воздуха при движении масла, вызванных причиной , и механических сотрясениях, имеющих место в следствии вибрации корпуса." wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="103.0" text="Воздух попадает в кожух трансформатора при доливке масла, ремонте трансформатора с перезаливкой масла. В дальнейшем при включении под нагрузку температура масла начинает повышаться, находящийся воздух прогревается и поднимается к расширителю. Попадая в реле воздух может вызвать срабатывание верхнего сигнального контакта, а при быстром движении нижнего может вызвать отключение." wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="213.0" text="Для предупреждения неправильного отключения трансформатора отключающая цепь защиты после доливки масла или включения нового трансформатора переводится на сигнал (на 2-3 суток) до тех пор, пока не прекратится выделение воздуха, отмечаемое по работе защиты на сигнал." wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </AnchorPane>
+                  </Tab>
+               </TabPane>
+            </center>
+         </BorderPane>
+      </AnchorPane>
+   </SplitPane>
+</AnchorPane>
